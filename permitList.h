@@ -8,8 +8,12 @@ using namespace std;
 class PermitList {
 private:
     vector<ParkingPermit*> permits;
+
+    //TO DO STEP 1 Print: Change the parameter of this function to receive a pointer
     void PrintPermit();
 
+    //TO DO STEP 2 REWARDS: Change the parameter of this function to receive a pointer
+    // name the parameter longestHeld
     bool getLongestHeldPermit();
     void cleanUpList();
 

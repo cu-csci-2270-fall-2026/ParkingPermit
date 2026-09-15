@@ -84,7 +84,7 @@ TEST_F(ParkingListTest, getLongestFirstPermit) {
 
 
 
-//TO DO 3 SEG FAULTS: Write a test that gets a permit checking the edge case that the list is empty
+//TO DO STEP 3 SEG FAULTS: Write a test that gets a permit checking the edge case that the list is empty
 // Run the Valgrind command from command line 
 //          valgrind --leak-check=full --track-origins=yes ./
 // write here about what the problem was and how you fixed it
@@ -101,7 +101,7 @@ TEST_F(ParkingListTest, getLongestHeldEmptyList) {
 
 }
 
-//TO DO 3 SEG FAULTS: 
+//TO DO STEP 3 SEG FAULTS: 
 // Try commenting out the contents of the clean-up function
 // what does the Valgrind command say now?
 // Run the Valgrind command from command line 
