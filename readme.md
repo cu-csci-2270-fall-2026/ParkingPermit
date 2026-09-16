@@ -21,7 +21,7 @@ Turn in permitList.cpp
 Be sure that you have written tests. Unfortunately Google tests reports a passing test even when it is empty. But passing an empty test doesn't count.
 
 ## To build
-
+### make a build directory ( with the folder icon in VScode or with the command: mkdir <foldername> in this case, mkdir build  )  
 cd build
 
 cmake ..
